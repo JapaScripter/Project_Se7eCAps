@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <!--|Meta Config.|-->
+  <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="description" content="Se7eCaps Store">
+  <meta name="author" content="Unilatem">
+  <link rel="shortcut icon" href="images/faviconnew.ico">
+  <!--|Meta Config.|-->
+
+  <!--|Title Tab|-->
+  <title>Se7eCaps Store</title>
+  <!--|Title Tab|-->
+
+
+  <!--|CSS|-->
+  <link href="style.css" rel="stylesheet">
+  <!--|CSS|-->
+
+  <!--|Script Header and Footer Import|-->
+  <script>fetch("header.html").then((e=>e.text())).then((e=>{document.querySelector("header").innerHTML=e})),fetch("footer.html").then((e=>e.text())).then((e=>{document.querySelector("footer").innerHTML=e}));</script>
+  <!--|Script Header and Footer Import|-->
+
+  <!--|Animation|-->
+  <script>document.addEventListener("DOMContentLoaded",(function(){AOS.init()}));</script>
+  <!--|Animation|-->
+
+  <header></header>
+
+  <main id="main">
+    <section id="hero" data-aos="fade" data-aos-duration="1500" data-aos-easing="linear">
+      <div class="carousel-container">
+        <div>
+          <div class="slidecarousel active">
+            <img src="images/1.jpg" alt="">
+            <h2 class="tt0">Mais que um tênis<br>É NIKE!!!</h2>
+          </div>
+          <div class="slidecarousel">
+            <img src="images/2.jpg" alt="">
+            <h2 class="tt01">Supere os seus limites...</h2>
+          </div>
+          <div class="slidecarousel">
+            <img src="images/3.jpg" alt="">
+            <h2 class="tt02">Resistência e força para o seu dia a dia!</h2>
+          </div>
+          <div class="slidecarousel">
+            <img src="images/4.jpg" alt="">
+            <h2 class="tt03">A união faz a força!</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+      <section id="produtos">
+          <div class="dv3" data-aos="fade-down" data-aos-duration="1500" data-aos-easing="linear">
+            <div class="lk" data-item="1">
+              <img class="im3" src="images/products/ad0.webp">
+              <h2>Tênis Adidas Forum Low PS</h2>
+              <p>O Tênis adidas Forum Low PS Infantil é a combinação perfeita de estilo e conforto para as crianças. Com um design moderno e detalhes clássicos, este tênis apresenta cabedal em ...</p>
+              <a href="https://api.whatsapp.com/send?phone=5511988734985&text=Olá! Quero%20comprar%20o%201!"><h2 class="money">Comprar R$449,99</h2></a>
+            </div>
+            <div class="lk" data-item="2">
+              <img class="im3" src="images/products/nk0.webp">
+              <h2>Tênis Nike Court Borough Low Recraft</h2>
+              <p>Faça do Nike Court Borough Low Recraft (GS) o seu novo favorito. Esses sapatos apresentam uma mistura durável de materiais na parte superior e na sola ...</p>
+              <a href="https://api.whatsapp.com/send?phone=5511988734985&text=Olá! Quero%20comprar%20o%202!"><h2 class="money">Comprar R$399,99</h2></a>
+            </div>
+            <div class="lk" data-item="3">
+              <img class="im3" src="images/products/ol0.webp">
+              <h2>Tênis Feminino Olympikus Estilo 2</h2>
+              <p>TENIS OLYMPIKUS Tênis Olympikus é o tênis ideal para quem busca estilo para os seus corres diários. O seu solado possui dupla camada da Tecnologia Evasense, que proporciona ...</p>
+              <a href="https://api.whatsapp.com/send?phone=5511988734985&text=Olá! Quero%20comprar%20o%203!"><h2 class="money">Comprar R$259,99</h2></a>
+            </div>
+            <div class="lk" data-item="4">
+              <img class="im3" src="images/products/pm0.webp">
+              <h2>Tênis Puma X- Ray 2 Square BDP</h2>
+              <p>Monte looks estilosos e de atitude com o Tênis Casual da Puma. O sneaker cano curto tem cabedal robusto produzido em tecido sintético e têxtil, com calcanhar acolchoado e ...</p>
+              <a href="https://api.whatsapp.com/send?phone=5511988734985&text=Olá! Quero%20comprar%20o%204!"><h2 class="money">Comprar R$339,48</h2></a>
+            </div>
+          </div>
+          <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImage">
+            <a class="prev">&#10094;</a>
+            <a class="next">&#10095;</a>
+          </div>
+      </section>
+      <section id="parceiros">
+        <h1 class="tt5" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="linear" data-aos-delay="500" data-aos-offset="0">Marcas Parceiras!</h1>
+        <div class="slider" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="linear" data-aos-delay="500" data-aos-offset="0">
+          <div class="slide-track">
+            <div class="slide"><img class="slide-image" src="images/adidas.png" height="125" width="125" alt=""></div>
+            <div class="slide"><img class="slide-image" src="images/jordan.png" height="125" width="125" alt=""></div>
+            <div class="slide"><img class="slide-image" src="images/nike.png" height="125" width="125" alt=""></div>
+            <div class="slide"><img class="slide-image" src="images/olympikus.png" height="125" width="125" alt=""></div>
+            <div class="slide"><img class="slide-image" src="images/puma.png" height="125" width="125" alt=""></div>
+            <div class="slide"><img class="slide-image" src="images/adidas.png" height="125" width="125" alt=""></div>
+            <div class="slide"><img class="slide-image" src="images/jordan.png" height="125" width="125" alt=""></div>
+            <div class="slide"><img class="slide-image" src="images/nike.png" height="125" width="125" alt=""></div>
+            <div class="slide"><img class="slide-image" src="images/olympikus.png" height="125" width="125" alt=""></div>
+            <div class="slide"><img class="slide-image" src="images/puma.png" height="125" width="125" alt=""></div>
+          </div>
+        </div>
+      </section>
+      <a href="https://api.whatsapp.com/send?phone=5511988734985&text=Olá!%Quais%20os%20tenis%20que%20vocês%20tem?" target="_blank"><img class="whatsappicon" src="images/whatsappG.svg"></a>
+  </main>
+  <footer></footer>
+
+  <!--|Script|-->
+  <script src="script.js" rel="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>$(document).ready((function(){var a=0,i=$(".slidecarousel"),e=i.length;function t(a){i.removeClass("active"),$(".slidecarousel:eq("+a+")").addClass("active"),$(".indicator").removeClass("active"),$('.indicator[data-slide="'+a+'"]').addClass("active")}$(".indicator").click((function(){var i=$(this).data("slide");t(i),a=i})),setInterval((function(){t(a=(a+1)%e)}),5000)}));</script>
+  <!--|Script|-->
+</body>
+
+</html>
